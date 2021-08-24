@@ -32,4 +32,63 @@ internal implementation of LinkedList
 
 Few algos on LL
 
+set:
+----------
+
+What is set ?
+Set is interface only having abstarct methods
+
+
+1.Set can allow duplicate elements
+2.it won't allow more than one null value
+
+
+HashSet:
+before adding elements to set it will check about hash code and equals methods of object
+
+1.Hashcode
+2.Equals
+3.toString
+4.getClass
+5.clone
+6.wait 2 methods
+7.notify,notify all
+
+what is the contract between hashcode and equals
+case 1:
+you have ovveride hashcode but don't have equals methods-->failure case
+
+case 2:
+if you have ovveride hashcode and equals method with few attributes->failure case
+
+case 3:
+if you ovveride hashcode and equls with all attibutes->success case
+
+Diffrences between ArrayList and LinkedList?
+
+
+
+Diffrences between ArrayList and HashSet
+
+----------------------------------------
+
+
+Design patterns:
+1.Final class
+2.Custom immutable class
+3.Static block and static class and static varible
+
+1.Singleton
+2.Factory design patterns
+3.Strategy design patterns
+
+how many ways are there to create object in java?
+
+1.new keyword
+2.reflection
+3.clone
+4.deserilizaion
+
+how to voilate singleton design pattern? and how to prevent the same?
+
 
