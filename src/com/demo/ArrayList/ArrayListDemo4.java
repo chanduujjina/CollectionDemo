@@ -13,6 +13,8 @@ public class ArrayListDemo4 {
 		nameList.add("Sehwag");
 		nameList.add("Kohli");
 		nameList.add("Drawid");
+		nameList.add(null);
+		nameList.add(null);
 		System.out.println(nameList);
 		
 		// add the element at first place
